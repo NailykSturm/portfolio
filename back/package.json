@@ -1,0 +1,18 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "back-end for my personal portfolio",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "DOTENV_CONFIG_PATH=.env node -r dotenv/config src/index.js",
+    "dev": "DOTENV_CONFIG_PATH=.env.test nodemon -r dotenv/config src/index.js"
+  },
+  "author": "Kylian BACHELET",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
+  }
+}
